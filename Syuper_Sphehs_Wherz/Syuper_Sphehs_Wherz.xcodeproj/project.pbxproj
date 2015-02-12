@@ -14,6 +14,11 @@
 		55BAE6871A82DABE00CA0463 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BAE6861A82DABE00CA0463 /* Images.xcassets */; };
 		55BAE68A1A82DABE00CA0463 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BAE6881A82DABE00CA0463 /* LaunchScreen.xib */; };
 		55BAE6961A82DABE00CA0463 /* Syuper_Sphehs_WherzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BAE6951A82DABE00CA0463 /* Syuper_Sphehs_WherzTests.m */; };
+		55CA9EBE1A8530D1009B4709 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA9EBD1A8530D1009B4709 /* UIKit.framework */; };
+		55CA9EC01A8530D8009B4709 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA9EBF1A8530D8009B4709 /* CoreGraphics.framework */; };
+		55CA9EC31A8A9F1A009B4709 /* gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CA9EC21A8A9F1A009B4709 /* gameplay.m */; };
+		55CA9EC51A8AA02B009B4709 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA9EC41A8AA02B009B4709 /* SpriteKit.framework */; };
+		55CA9EFB1A8AA385009B4709 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA9EFA1A8AA385009B4709 /* SceneKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		55BAE68F1A82DABE00CA0463 /* Syuper_Sphehs_WherzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Syuper_Sphehs_WherzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BAE6941A82DABE00CA0463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55BAE6951A82DABE00CA0463 /* Syuper_Sphehs_WherzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Syuper_Sphehs_WherzTests.m; sourceTree = "<group>"; };
+		55CA9EBD1A8530D1009B4709 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55CA9EBF1A8530D8009B4709 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55CA9EC11A8A9F1A009B4709 /* gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameplay.h; sourceTree = "<group>"; };
+		55CA9EC21A8A9F1A009B4709 /* gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameplay.m; sourceTree = "<group>"; };
+		55CA9EC41A8AA02B009B4709 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		55CA9EFA1A8AA385009B4709 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CA9EFB1A8AA385009B4709 /* SceneKit.framework in Frameworks */,
+				55CA9EC51A8AA02B009B4709 /* SpriteKit.framework in Frameworks */,
+				55CA9EC01A8530D8009B4709 /* CoreGraphics.framework in Frameworks */,
+				55CA9EBE1A8530D1009B4709 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,10 @@
 		55BAE66D1A82DABE00CA0463 = {
 			isa = PBXGroup;
 			children = (
+				55CA9EFA1A8AA385009B4709 /* SceneKit.framework */,
+				55CA9EC41A8AA02B009B4709 /* SpriteKit.framework */,
+				55CA9EBF1A8530D8009B4709 /* CoreGraphics.framework */,
+				55CA9EBD1A8530D1009B4709 /* UIKit.framework */,
 				55BAE6781A82DABE00CA0463 /* Syuper_Sphehs_Wherz */,
 				55BAE6921A82DABE00CA0463 /* Syuper_Sphehs_WherzTests */,
 				55BAE6771A82DABE00CA0463 /* Products */,
@@ -85,6 +104,8 @@
 				55BAE67E1A82DABE00CA0463 /* AppDelegate.m */,
 				55BAE6801A82DABE00CA0463 /* ViewController.h */,
 				55BAE6811A82DABE00CA0463 /* ViewController.m */,
+				55CA9EC11A8A9F1A009B4709 /* gameplay.h */,
+				55CA9EC21A8A9F1A009B4709 /* gameplay.m */,
 				55BAE6831A82DABE00CA0463 /* Main.storyboard */,
 				55BAE6861A82DABE00CA0463 /* Images.xcassets */,
 				55BAE6881A82DABE00CA0463 /* LaunchScreen.xib */,
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BAE6821A82DABE00CA0463 /* ViewController.m in Sources */,
+				55CA9EC31A8A9F1A009B4709 /* gameplay.m in Sources */,
 				55BAE67F1A82DABE00CA0463 /* AppDelegate.m in Sources */,
 				55BAE67C1A82DABE00CA0463 /* main.m in Sources */,
 			);
@@ -412,6 +434,7 @@
 				55BAE69B1A82DABE00CA0463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55BAE69C1A82DABE00CA0463 /* Build configuration list for PBXNativeTarget "Syuper_Sphehs_WherzTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				55BAE69E1A82DABE00CA0463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

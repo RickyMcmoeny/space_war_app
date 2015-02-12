@@ -17,7 +17,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //self.smallLabel2.textAlignment = NSTextAlignmentCenter;
+    
+    NSMutableAttributedString *attributedString2 = [[NSMutableAttributedString alloc] initWithString:@"syuper sphez wehrz"];
+    //[attributedString2 addAttribute:NSFontAttributeName value:[UIFont fontWithName:@"AvenirNextCondensed-Regular" size:14.0f]];
+    //[attributedString2 addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:1 green:1 blue:1 alpha:1.000]];
+
+    
+
+    
+    
+    self.titleLabel.attributedText = attributedString2;
+    
+    
+    //CGRect *newRect = [CGRectMake(20, 50, 100, 100)];
+    
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -25,3 +45,6 @@
 }
 
 @end
+//Hi crash override was here muah ha ha ha h=a!!!!!
+//Try to find what i changed muah ha ha ha ha!!!!!!!!!
+//im sorry for the poeple who edited this document...no changes were made

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FAE021B8-1192-4602-B6F6-5755B73A1F81</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Syuper_Sphehs_Wherz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>292F46330020A40DA26F1C3E046614097B906A2E</key>
+		<string>https://github.com/RickyMcmoeny/space_war_app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Syuper_Sphehs_Wherz/Syuper_Sphehs_Wherz.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>292F46330020A40DA26F1C3E046614097B906A2E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/RickyMcmoeny/space_war_app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>292F46330020A40DA26F1C3E046614097B906A2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>292F46330020A40DA26F1C3E046614097B906A2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>space_war_app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
